@@ -23,6 +23,10 @@ public class ProductStock {
     private Long id;
 
     @NotNull
+    @Column(name = "product_id")
+    private Long productId;
+
+    @NotNull
     @Column(name = "serial_no")
     private String serialNo;
 

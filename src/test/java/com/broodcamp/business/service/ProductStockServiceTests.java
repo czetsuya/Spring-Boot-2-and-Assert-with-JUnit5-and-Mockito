@@ -49,6 +49,7 @@ public class ProductStockServiceTests {
     public void setup() {
 
         ProductStock ps = new ProductStock();
+        ps.setProductId(1L);
         ps.setSerialNo(serialNo);
         ps.setWarrantyCardNo(warrantyCardNo);
         ps.setId(1L);
@@ -81,6 +82,7 @@ public class ProductStockServiceTests {
     public void whenSaving_thenOk() {
 
         ProductStock ps = new ProductStock();
+        ps.setProductId(1L);
         ps.setSerialNo(serialNoEmpty);
         ps.setWarrantyCardNo(warrantyCardNoEmpty);
         ps.setId(1L);
